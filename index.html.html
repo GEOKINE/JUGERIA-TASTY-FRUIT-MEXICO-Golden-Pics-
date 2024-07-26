@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejemplo de Elementos Semánticos en HTML5</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        header, nav, main, aside, section, article, footer {
+            padding: 20px;
+            margin: 10px;
+        }
+        header, footer {
+            background-color: #f8f9fa;
+        }
+        nav {
+            background-color: #e9ecef;
+        }
+        aside {
+            background-color: #f1f3f5;
+        }
+        article {
+            background-color: #ffffff;
+            border: 1px solid #dee2e6;
+            padding: 20px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Mi Sitio Web</h1>
+        <nav>
+            <ul>
+                <li><a href="#">Inicio</a></li>
+                <li><a href="#">Acerca de</a></li>
+                <li><a href="#">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section>
+            <h2>Sección Principal</h2>
+            <p>Esta es la sección principal de la página.</p>
+            <article>
+                <header>
+                    <h3>Título del Artículo</h3>
+                    <p>Publicado el <time datetime="2024-07-25">25 de Julio de 2024</time></p>
+                </header>
+                <p>Este es el cuerpo del artículo. Aquí se detalla el contenido principal del tema tratado.</p>
+                <figure>
+                    <img src="carrot.png" alt="Descripción de la imagen">
+                    <figcaption>Figura 1: Descripción de la imagen.</figcaption>
+                </figure>
+                <footer>
+                    <p>Autor: Juan Pérez</p>
+                </footer>
+            </article>
+        </section>
+        <aside>
+            <h2>Enlaces Relacionados</h2>
+            <ul>
+                <li><a href="#">Enlace 1</a></li>
+                <li><a href="#">Enlace 2</a></li>
+            </ul>
+        </aside>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Mi Sitio Web. Todos los derechos reservados.</p>
+    </footer>
+</body>
+</html>
